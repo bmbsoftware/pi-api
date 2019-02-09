@@ -1,0 +1,49 @@
+{
+	"extends": "eslint-config-airbnb",
+	"env": {
+			"browser": true,
+			"node": true
+	},
+	"parser": "typescript-eslint-parser",
+	"rules": {
+			"arrow-body-style": 0,
+			"class-methods-use-this": 0,
+			"comma-dangle": 0,
+			"global-require": 0,
+			"function-paren-newline": ["error", "consistent"],
+			"import/extensions": 0,
+			"import/no-extraneous-dependencies": 0,
+			"import/no-unresolved": 0,
+			"import/prefer-default-export": 0,
+			"indent": ["error", "tab", { "SwitchCase": 1 }],
+			"jsx-a11y/alt-text": 0,
+			"jsx-a11y/click-events-have-key-events": 0,
+			"jsx-a11y/href-no-hash": 0,
+			"jsx-a11y/no-static-element-interactions": 0,
+			"linebreak-style": 0,
+			"max-len": 0,
+			"no-tabs": 0,
+			"no-underscore-dangle": 0,
+			"no-restricted-globals": 0,
+			"no-undef": 0,
+			"no-use-before-define": 0,
+			"no-unused-vars": 0,
+			"no-var": 0,
+			"object-curly-newline": ["error", { "consistent": true }],
+			"prefer-destructuring": 0,
+			"prefer-promise-reject-errors": 0,
+			"react/jsx-filename-extension": 0,
+			"react/jsx-indent": 0,
+			"react/jsx-indent-props": ["error", "tab"],
+			"react/jsx-no-bind": ["error", {
+					"ignoreRefs": true,
+					"allowBind": true
+			}],
+			"react/sort-comp": 0,
+			"no-shadow": 0
+	},
+	"globals": {
+			"__DEVELOPMENT__": true,
+			"__DEVTOOLS__": true
+	}
+}

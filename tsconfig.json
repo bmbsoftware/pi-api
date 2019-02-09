@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+			"allowJs": false,
+			"module": "es6",
+			"moduleResolution": "node",
+			"target": "es6",
+			"allowSyntheticDefaultImports": true,
+			"baseUrl": ".",
+			"sourceMap": false,
+			"lib": ["es2015", "es2017", "dom"],
+			"jsx": "react",
+			"noUnusedLocals": true,
+			"noUnusedParameters": true,
+			"outDir": "ts-build",
+			"suppressImplicitAnyIndexErrors": true,
+			"strict": true,
+			"paths": {
+					"*": [
+							"*",
+							"src/*",
+							"server/*",
+							"node_modules/*",
+							"node_modules/@types/*",
+							"typings/*"
+					]
+			},
+			"experimentalDecorators": true,
+			"types": ["jest"]
+	},
+	"exclude": ["node_modules"]
+}
